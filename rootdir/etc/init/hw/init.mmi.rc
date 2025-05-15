@@ -240,6 +240,9 @@ on post-fs-data
     mkdir /data/vendor/fpc 0700 system system
     mkdir /data/vendor/.fps 0770 system vendor_fingerp
 
+    mkdir /data/vendor/fingerprint 0770 system system
+    mkdir /data/vendor/focaltech 0770 system system
+
 on boot
    # restore default console_loglevel to KERN_DEBUG
    # restore default_message_loglevel to KERN_WARNING
