@@ -240,9 +240,6 @@ on post-fs-data
     mkdir /data/vendor/fpc 0700 system system
     mkdir /data/vendor/.fps 0770 system vendor_fingerp
 
-    # Required by touchRec for write the touch data
-    mkdir /data/vendor/touchrec 0770 input input
-
 on boot
    # restore default console_loglevel to KERN_DEBUG
    # restore default_message_loglevel to KERN_WARNING
